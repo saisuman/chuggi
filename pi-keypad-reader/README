@@ -1,0 +1,12 @@
+This is code that reads input from a 4x3 numerical
+membrane keypad matrix from a Rapsberry PI.
+Details:
+ - Keypad inputs are written to standard output. You can fork
+   this from another process, and read a stream of keystrokes.
+ - Keypad events are published in the form of UP and DOWN events.
+ - Supports multiple key presses simultaneously.
+ - Should work just as well with any other matrix keyboards, might
+   need some customisation, though.
+ - This is the product it has been tested on:
+	http://www.adafruit.com/product/419
+
