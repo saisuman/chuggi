@@ -11,9 +11,9 @@
 #define NUM_ROWS 4
 
 // The WiringPI pin numbers for the column outputs.
-const int COL_PINS[] = {0, 1, 2};
+const int COL_PINS[] = {3, 2, 0};
 // The WiringPI pin numbers for the row inputs.
-const int ROW_PINS[] = {3, 4, 5, 6};
+const int ROW_PINS[] = {15, 14, 13, 12};
 
 // A mapping from (row, column) to the keypad
 // character each location represents.
